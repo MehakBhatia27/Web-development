@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action = "">
+        <h1>Registration Form</h1>
+        <p>Name : <input type="text" name="name"></p>
+        <p>
+            Gender: male <input type="radio" name="male" id="male">female <input type="radio" name="female" id="female">
+        </p>
+        <p>
+            Address: <textarea name="address"
+            id="address"
+            cols="100"
+            rows="7"></textarea>
+        </p>
+        <p>Email: <input type="Email" name="email" id="email"></p>
+        <p>Pincode: <input type="number" name="Pincode" od="Pincode"></p>
+        <p>Session Timings : <input type="time" name="Session_Timings" id="Session_Timings"></p>
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="">--Select the card type--</option>
+                <option value="Visa">Visa</option>
+                <option value="Master Card">Master_Card</option>
+                <option value="Rupay">Rupay</option>
+            </select>
+        </p>
+        <p>Name on Card: <input type="text" name="name_on_card" id="name_on_card"></p>
+        <p>Card Number: <input type="number"name="Card_Number"id="Card_Number"> </p>
+        <p>CVV: <input type="number"name="CVV"id="CVV"> </p>
+        <P>Expiry Date: <input type="date" name ="Expiry_Date" id="Expiry_Date"></P>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
